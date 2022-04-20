@@ -8,8 +8,8 @@ app.get("/", function (req, res) {
   res.render("index", { title: "My page" });
 });
 
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+// app.use(express.json());
+// app.use(express.urlencoded({ extended: false }));
 
 app.listen(3000);
 console.log("listening at 3000");
